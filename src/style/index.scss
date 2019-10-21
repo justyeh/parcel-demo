@@ -1,0 +1,14 @@
+.list {
+    background: #fff;
+    width: 200px;
+    padding: 20px;
+
+    >div {
+        display: flex;
+        margin: 10px;
+
+        p:last-child {
+            color: #666
+        }
+    }
+}
